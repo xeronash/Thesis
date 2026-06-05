@@ -1,0 +1,13 @@
+n,N,cells,max_label,max_cone,mean_cone,method,exhaustive,samples
+3,9,81,max,19,12.45679012345679,exhaustive,True,
+4,17,289,max,28,19.782006920415224,exhaustive,True,
+5,33,1089,max,41,29.143250688705233,exhaustive,True,
+6,65,4225,max,55,40.12994082840237,exhaustive,True,
+7,129,16641,max,69,52.265188390120784,exhaustive,True,
+8,257,66049,max,83,65.15073657436146,exhaustive,True,
+9,513,263169,observed max,97,78.53345,"sampled (100,000)",False,100000
+10,1025,1050625,observed max,111,92.15218,"sampled (100,000)",False,100000
+11,2049,4198401,observed max,125,105.86733,"sampled (100,000)",False,100000
+12,4097,16785409,observed max,139,119.73858,"sampled (100,000)",False,100000
+13,8193,67125249,observed max,153,133.72117,"sampled (100,000)",False,100000
+14,16385,268468225,observed max,167,147.72359,"sampled (100,000)",False,100000
