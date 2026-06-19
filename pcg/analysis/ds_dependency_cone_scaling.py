@@ -2,14 +2,6 @@
 analyze_cone_scaling.py
 
 Measure how the dependency-cone size of ds_gen_single scales with grid depth.
-
-The cone is purely combinatorial: it depends only on level_of() and parents().
-Seed, roughness, hash values, and displacement values affect the final heights,
-but not which cells are ancestors.
-
-For small n, every cell is measured exactly. For larger n, the mean and max are
-estimated from random sampled queries. Therefore, for sampled depths, the max is
-an observed max, not a proven worst case.
 """
 
 import csv

@@ -1,9 +1,5 @@
 """
 ds_roughness_comparison.py
-
-Generate comparison figures for classical full-grid diamond-square terrain:
-the same seed rendered at roughness values 0.3, 1.0, and 2.0, side by side,
-sharing one scale.
 """
 
 from pcg.core.seeds import TESTING_SEED, random_seed
